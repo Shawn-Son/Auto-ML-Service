@@ -98,8 +98,8 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/Marcus-Son/Auto-ML-Service-Using-Open-Source.git
-    cd your-repo
+    git clone https://github.com/Shawn-Son/User-Friendly-Auto-ML-Service.git
+    cd User-Friendly-Auto-ML-Service
     ```
 
 2. **(Optional) Create virtual environment & install dependencies**
@@ -232,37 +232,21 @@ This project fully automates every essential step of the data science pipeline. 
 - ![alt text](images/image-16.png)
   - *Description: Excerpt from the auto-generated report, including performance metrics, plots, and XAI explanations.*
 
-> *Tip: You can use actual screenshots from your application and save them in the `images/` directory. Replace the file names in the Markdown above with your actual screenshot filenames.*
-
 ---
 
-## 9. 💼 Career/Portfolio Highlights
+## 9. Highlights
 
-### Key Strengths & Differentiators
-
-- **Fully Automated AutoML Pipeline:** From raw data upload to EDA, preprocessing, modeling, evaluation, explainability, and report generation—all steps are seamlessly automated, mimicking real-world data science workflows.
-- **Supports All Major Problem Types:** Handles classification, regression, and time series forecasting—covering the most common business analytics scenarios.
-- **Robust Data Handling:** Automatically detects and processes missing values, outliers, categorical/numerical data, time formats, and irregularities—ensuring reliability on real, messy datasets.
-- **Built-in Model Explainability:** Automatically generates model interpretation results (e.g., SHAP, feature importance), providing practical, actionable insights for business decision-making.
-- **User-Friendly Web GUI:** Enables non-technical stakeholders (e.g., business analysts, product managers) to run sophisticated analyses without coding, making it ideal for collaborative environments.
-- **Scalable & Modular Codebase:** Clean, well-documented, and modular Python code—ready for extension or integration into larger production systems.
-- **State-of-the-Art Tech Stack:** Implements modern best practices in machine learning, AutoML, and explainable AI, fully aligned with industry and research standards.
-
-### Why This Project Stands Out
-
-- **End-to-End Workflow Automation:** No manual steps required—just upload your data and get a complete, human-readable report with insights and visualizations.
-- **Portfolio-Ready Demonstration:** All code, logs, and example reports can be showcased directly in interviews or online portfolios (e.g., GitHub), making your skills visible and concrete.
-- **Kaggle and Industry Benchmark Alignment:** Reflects patterns and standards from top data competitions and real business use cases.
-- **Easy Customization:** Designed for quick adaptation to new datasets, domains, and business questions—ideal for practical consulting or rapid prototyping.
-- **Perfect for Job Applications:** Shows mastery of not just modeling, but also automation, clean code, explainability, and UX—all highly valued in U.S. data science roles.
-
----
+- **End-to-end AutoML pipeline.** From data upload through EDA, preprocessing, feature engineering, model search/tuning, evaluation, and an explainability (SHAP) report — driven from a single Streamlit UI with no coding required.
+- **Multi-task.** Automatically detects and handles classification, regression, and time-series forecasting.
+- **Robust data handling.** Missing values, outliers, categorical/numerical features, and time formats are processed automatically, with sampling fallbacks for large files.
+- **Built-in explainability.** SHAP and permutation importance are generated automatically and bundled into a downloadable HTML report.
+- **Modular codebase.** The `automl/` package is split by task type (`classification/`, `regression/`, `timeseries/`) with separate `eda`, `preprocessing`, `model_search`, `evaluation`, and `report` modules.
 
 ## 10. 🤝 Contributing
 
 - Everyone is welcome to contribute to this project!
 - All forms of contribution are appreciated, including bug reports, feature suggestions, documentation, and code improvements.
-- Please open an [Issue](https://github.com/Marcus-Son/Auto-ML-Service-Using-Open-Source/issues) to discuss any ideas or problems before submitting a PR.
+- Please open an [Issue](https://github.com/Shawn-Son/User-Friendly-Auto-ML-Service/issues) to discuss any ideas or problems before submitting a PR.
 - When submitting a Pull Request, include a brief explanation of your changes and, if possible, add tests.
 - Please follow the code style and structure as closely as possible, and update documentation or comments as needed.
 
