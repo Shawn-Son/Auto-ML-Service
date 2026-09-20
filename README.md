@@ -15,7 +15,6 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
 - ✅ **User-Friendly:** Intuitive web UI built with Streamlit  
 - ✅ **Production-Grade Quality:** Diverse models and algorithms, advanced preprocessing, built-in XAI (explainable AI) support  
 - ✅ **Versatility:** Supports classification, regression, and time series forecasting  
-- ✅ **Portfolio & Industry Ready:** Ideal for data science internship/job portfolios in the U.S., and practical for real-world business applications  
 
 ---
 
@@ -98,8 +97,8 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/Shawn-Son/User-Friendly-Auto-ML-Service.git
-    cd User-Friendly-Auto-ML-Service
+    git clone https://github.com/Shawn-Son/Auto-ML-Service.git
+    cd Auto-ML-Service
     ```
 
 2. **(Optional) Create virtual environment & install dependencies**
@@ -246,7 +245,7 @@ This project fully automates every essential step of the data science pipeline. 
 
 - Everyone is welcome to contribute to this project!
 - All forms of contribution are appreciated, including bug reports, feature suggestions, documentation, and code improvements.
-- Please open an [Issue](https://github.com/Shawn-Son/User-Friendly-Auto-ML-Service/issues) to discuss any ideas or problems before submitting a PR.
+- Please open an [Issue](https://github.com/Shawn-Son/Auto-ML-Service/issues) to discuss any ideas or problems before submitting a PR.
 - When submitting a Pull Request, include a brief explanation of your changes and, if possible, add tests.
 - Please follow the code style and structure as closely as possible, and update documentation or comments as needed.
 
