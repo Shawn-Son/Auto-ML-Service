@@ -13,7 +13,7 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
 
 - ✅ **Fully Automated:** End-to-end pipeline from preprocessing to modeling and reporting, triggered by data upload  
 - ✅ **User-Friendly:** Intuitive web UI built with Streamlit  
-- ✅ **Production-Grade Quality:** Diverse models and algorithms, advanced preprocessing, built-in XAI (explainable AI) support  
+- ✅ **Explainable:** Multiple model families, automated preprocessing, built-in SHAP and permutation-importance reports  
 - ✅ **Versatility:** Supports classification, regression, and time series forecasting  
 
 ---
@@ -27,7 +27,7 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
   - Regression
   - Classification
   - Time Series Forecasting  
-  Automatically detects the problem type and applies the optimal pipeline accordingly.
+  Automatically detects the problem type and applies the matching pipeline.
 
 - **User-Friendly Web Interface**  
   Built with Streamlit for an intuitive web UI—no coding skills required. Anyone can use it right away.
@@ -35,7 +35,7 @@ performs **EDA**, preprocessing, feature engineering, model selection/tuning, ev
 - **Advanced Explainable AI (XAI) Tools**  
   Includes SHAP, Permutation Importance, and more for model interpretation and transparency.
 
-- **Integrated State-of-the-Art Algorithms**  
+- **Standard Tabular Algorithms**  
   Supports LightGBM, XGBoost, RandomForest, Ridge, Lasso, and several time series models. Models and hyperparameters are automatically selected for best performance.
 
 - **Comprehensive Reporting & Download**  
